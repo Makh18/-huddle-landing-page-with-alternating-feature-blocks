@@ -1,0 +1,17 @@
+@mixin grid_responsive{
+   display: grid;
+   gap:1rem;
+   text-align: center;
+}
+@mixin grid_desktop{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: start;
+}
+@mixin global_button{
+    text-decoration: none;
+    padding: 0.75em 3em;
+    border-radius: 4rem;
+    cursor: pointer;
+    text-align: center;
+}

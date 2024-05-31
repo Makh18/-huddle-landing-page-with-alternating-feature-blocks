@@ -1,0 +1,19 @@
+.services{
+    padding-block: 8rem;
+    display: grid;
+    gap:2rem;
+    
+.service{
+    @include grid_responsive();
+    padding: 3rem;
+    box-shadow: 5px 5px 15px 5px #bebebe;
+    border-radius: $borer-rd;
+    @media(min-width: 50em){
+        @include grid_desktop();
+    }
+    .services-details{
+      padding-block: 6rem;
+    }
+}
+
+}

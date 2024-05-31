@@ -1,0 +1,21 @@
+.hero{
+    @include grid_responsive();
+    padding: 1rem;
+    @media(min-width: 50em){
+        @include grid_desktop();
+        
+    }
+    .hero-content{
+        padding: 2.5rem;
+
+        .btn{
+            @include global_button();
+            color:$clr-primary-white;
+            background-color:$clr-primary-pink;
+            margin-top: 2rem;
+        }
+        p{
+            margin-bottom: 2rem;
+        }
+    }
+}

@@ -1,0 +1,19 @@
+.get-started{
+    max-width: 600px;
+    margin: 0 auto;
+    background-color:$clr-primary-white;
+    padding:2rem 1rem;
+    text-align: center;
+    box-shadow: 2px 2px 2px 2px #bebebe;
+    border-radius: $borer-rd;
+    transform: translateY(20%);
+
+    h2{
+        margin-bottom: 2rem;
+    }
+    .btn{
+        @include global_button();
+        color:$clr-primary-white;
+        background-color: $clr-primary-pink;
+    }
+}

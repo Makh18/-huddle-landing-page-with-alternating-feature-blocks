@@ -1,0 +1,22 @@
+header{
+    background-image: url("../images/bg-hero-desktop.svg");
+    padding-block: 2rem;
+    background-color: $clr-neutral-very-pale-cyan;
+    nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .btn{
+        background-color: $clr-primary-white;
+        @include global_button();
+    }
+    img{
+        width: 100px;
+        @media(min-width: 50em){
+            width: 150px;
+        }
+    }
+    }
+    
+}
